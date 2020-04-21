@@ -111,3 +111,13 @@ let g:tagbar_autofocus=1
 "Tmuxline
 "let g:airline#extensions#tmuxline#enabled = 0
 "let g:tmuxline_theme = 'icebert'
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+" Show trailing whitespace:
+match ExtraWhitespace /\s\+$/
+" Show trailing whitespace and spaces before a tab:
+"match ExtraWhitespace /\s\+$\| \+\ze\t/
+" Show tabs that are not at the start of a line:
+"match ExtraWhitespace /[^\t]\zs\t\+/
+" Show spaces used for indenting (so you use only tabs for indenting).
+"match ExtraWhitespace /^\t*\zs \+/
