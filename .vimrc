@@ -112,6 +112,11 @@ let g:tagbar_autofocus=1
 "let g:airline#extensions#tmuxline#enabled = 0
 "let g:tmuxline_theme = 'icebert'
 
+if exists('&colorcolumn')
+    highlight ColorColumn ctermbg=DarkGrey
+    set colorcolumn=120
+endif
+
 highlight ExtraWhitespace ctermbg=red guibg=red
 " Show trailing whitespace:
 match ExtraWhitespace /\s\+$/
