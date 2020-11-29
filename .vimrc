@@ -18,7 +18,7 @@ Plugin 'davidhalter/jedi-vim'
 "Plugin 'klen/python-mode'
 "Plugin 'edkolev/tmuxline.vim'
 Plugin 'scrooloose/syntastic'
-Plugin 'zxqfl/tabnine-vim'
+"Plugin 'zxqfl/tabnine-vim'
 call vundle#end()            " required
 " filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
