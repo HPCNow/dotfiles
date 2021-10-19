@@ -1,4 +1,12 @@
 #!/bin/bash
+#                __  ______  _______   __              __
+#               / / / / __ \/ ____/ | / /___ _      __/ /
+#              / /_/ / /_/ / /   /  |/ / __ \ | /| / / /
+#             / __  / ____/ /___/ /|  / /_/ / |/ |/ /_/
+#            /_/ /_/_/    \____/_/ |_/\____/|__/|__(_)
+#
+#      dotfiles developed and maintained by HPCNow! staff
+
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp .vimrc ~/.vimrc
 vim +PluginInstall +qall
